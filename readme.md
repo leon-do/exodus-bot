@@ -1,1 +1,0 @@
-![alt tag](./demo.gif)
