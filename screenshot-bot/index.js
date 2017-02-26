@@ -7,7 +7,7 @@ var resemble = require('node-resemble');
 setInterval(function(){
 
     screenshot("screenshot.png", function(error, complete) {
-        var config1 = {width: 1000, height: 75, top: 420, left:200};
+        var config1 = {width: 1000, height:65, top: 390, left:225};
         PNGCrop.crop('screenshot.png', 'screenshot.png', config1, function(err) {
           console.log('crop complete!');
           analyzeImage()

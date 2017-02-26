@@ -135,9 +135,9 @@ mouse.Click(0, 0);
 
 //click exchange coin
 mouse.Place(730, 640);
-setTimeout(function(){
-    mouse.Click(0, 0);
-},200)
+// setTimeout(function(){
+//     mouse.Click(0, 0);
+// },500)
 
 
 mouse.quit()
